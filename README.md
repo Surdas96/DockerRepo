@@ -15,7 +15,7 @@ This repository is a sample Node.js application for Docker's documentation.
 ![Docker file](https://github.com/user-attachments/assets/c733a119-5073-4541-b14c-2b4ef19cc111)
 
 # Create docker image
-  Command : --  Docker build -t mytodoapp .
+  Command : --  Docker build -t mytodoapp  .
 
   ![Docker image](https://github.com/user-attachments/assets/e01f8403-09c0-49cf-96e0-2d10298920c8)
 
