@@ -1,0 +1,37 @@
+Docker To do app 
+
+-Open VS code and open terminal 
+-Run below command. This has docker repo files for to do app.
+-git clone https://github.com/Surdas96/DockerToDoApp.git
+-Run cd DockerToDoApp
+-Run code . 
+-Your all files will be shown in VS code. 
+
+-Run npm install 
+-Run npm start
+-After success full open new terminal 
+-Create Docker file and below code.
+
+FROM node:21-alpine
+WORKDIR /app
+COPY package*.json ./
+RUN npm install
+COPY . . 
+EXPOSE 3000
+CMD ["npm","start" ] 
+
+-Save
+
+-Now to create docker image 
+-Run Docker build -t mytodoapp .  (mytodoapp is a name of image )
+-Make use your docker desktop is open below creating image and your image will be created in docker desktop 
+
+-Now to create docker container with port listed 
+-Run Docker run -it -d -p 3001:3000 --name Container01 mytodoapp
+(Container 01 is a name of container and after that image name )
+
+-Check in docker desktop container will be created. 
+-If you click on given port 3001:3000 it will redirect to app which we are created. 
+-Here you can add and delete your item. 
+
+---------------------------------------------------------
