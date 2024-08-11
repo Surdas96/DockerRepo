@@ -24,7 +24,7 @@ This repository is a sample Node.js application for Docker's documentation.
 
 ![Container ](https://github.com/user-attachments/assets/d8eed296-e9e9-4263-9f86-cba193c08bb2)
 
-# To do app we can acess vai port 3001 
+# To do app we can acess via port 3001 
 
 ![To Do web app](https://github.com/user-attachments/assets/fdc2af51-7d33-4dc1-9825-12a3fe79bad6)
 
